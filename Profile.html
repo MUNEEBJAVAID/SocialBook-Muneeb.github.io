@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="ConnectMuneeb is a web application that aims to replicate the functionality and user experience of the popular social media platform, Facebook. The project is developed by Muneeb, a computer science student and aspiring developer, with a focus on creating a fully functional social networking platform">
+    <script src="https://kit.fontawesome.com/d53d737a34.js" crossorigin="anonymous"></script>
+
+    <title>Profile-page : Connect Muneeb</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Please Wait..." class="logo">
+                </a>
+                <ul>
+                    <li><img src="images/notification.png" alt="Please Wait..."></li>
+                    <li><img src="images/inbox.png" alt="Please Wait..."></li>
+                    <li><img src="images/video.png" alt="Please Wait..."></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png" alt="Please Wait...">
+                    <input type="text" id="search-input-box" placeholder="Search">
+                </div>
+
+                <div class="nav-user-icon user-online" onclick="settingsMenuToogle()">
+                    <img src="images/Muneeb.jpg" alt="Loading...">
+
+                </div>
+            </div>
+            <!-- ............. Drop-Down Setting Menu................ -->
+            <div class="setting-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+                <div class="setting-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/Muneeb.jpg" alt="Loading...">
+                        <div>
+                            <p>Muneeb Javaid</p>
+                            <a href="/Profile.html">See your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png" alt="Loading...">
+                        <div>
+                            <p>Give feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="setting-link">
+                        <img src="images/setting.png" alt="Loading..." class="setting-icon">
+                        <a href="#">Setting & Privacy <img src="images/arrow.png" alt="Wait..."></a>
+                    </div>
+
+                    <div class="setting-link">
+                        <img src="images/help.png" alt="Loading..." class="setting-icon">
+                        <a href="#">Help & Support<img src="images/arrow.png" alt="Wait..."></a>
+                    </div>
+
+                    <div class="setting-link">
+                        <img src="images/display.png" alt="Loading..." class="setting-icon">
+                        <a href="#">Display & Accessibility <img src="images/arrow.png" alt="Wait..."></a>
+                    </div>
+                    <div class="setting-link">
+                        <img src="images/logout.png" alt="Loading..." class="setting-icon">
+                        <a href="#">Logout <img src="images/arrow.png" alt="Wait..."></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ..............Profile-page.................. -->
+    <div class="profile-container">
+
+        <img src="images/cover.png" alt="Loading" class="cover-img">
+
+        <div class="profile-detail">
+
+            <div class="pd-left">
+
+                <div class="pd-row">
+                    <img src="images/Muneeb.jpg" alt="Loading..." class="pd-img">
+
+                    <div>
+                        <h3>Muneeb Javaid</h3>
+                        <p>400 friends - 20 mutual</p>
+                        <img src="images/member-1.png" alt="Wait...">
+                        <img src="images/member-2.png" alt="Wait...">
+                        <img src="images/member-3.png" alt="Wait...">
+                        <img src="images/member-4.png" alt="Wait...">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pd-right">
+
+                <button type="button"> <img src="images/add-friends.png"> Friends</button>
+                <button type="button"> <img src="images/message.png"> Messages</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Mern Stack</h3>
+                    <p class="intro-text">Hey! Muneeb's Passion for Creative Problem-Solving <img
+                            src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-study.png">Bs in Computer science</li>
+                        <li><img src="images/profile-study.png">Studied at Virtual Universty </li>
+                        <li> <img src="images/profile-home.png"> Live in Pakistan</li>
+                        <li><img src="images/profile-location.png">City Faisalabad , Punjab</li>
+                        <li><img src="images/profile-job.png">Mern stack developer</li>
+                    </ul>
+
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photo</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>320 9(mutual)</p>
+                    <div class="friend-box">
+                        <div><img src="images/member-1.png">
+                            <p>Nilson</p>
+                        </div>
+                        <div><img src="images/member-2.png">
+                            <p>Tayyab</p>
+                        </div>
+                        <div><img src="images/member-3.png">
+                            <p>Nilson A</p>
+                        </div>
+                        <div><img src="images/member-5.png">
+                            <p>Ab-Rehman</p>
+                        </div>
+                        <div><img src="images/member-4.png">
+                            <p>Jhon Wick</p>
+                        </div>
+                        <div><img src="images/member-7.png">
+                            <p>Kashif </p>
+                        </div>
+                        <div><img src="images/member-8.png">
+                            <p>Joe Flex</p>
+                        </div>
+                        <div><img src="images/member-6.png">
+                            <p>Alexa sou</p>
+                        </div>
+                        <div><img src="images/member-9.png">
+                            <p>Zohaib Khan</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="post-col">
+
+                <div class="main-content">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="images/Muneeb.jpg" alt="Loading...">
+                            <div>
+                                <p>Muneeb Javaid</p>
+                                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                            </div>
+                        </div>
+
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder=" What's on your mind,Muneeb?"></textarea>
+                            <div class="add-post-link">
+                                <a href="#"> <img src="images/live-video.png" alt="Loading...">Live Video</a>
+                                <a href="#"> <img src="images/photo.png" alt="Loading...">Photo/Video</a>
+                                <a href="#"> <img src="images/feeling.png" alt="Loading...">Feeling/Activity</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/Muneeb.jpg" alt="Loading...">
+                                <div>
+                                    <p>Muneeb Javaid</p>
+                                    <span>08 May 2020 , 8:27PM</span>
+                                </div>
+
+                            </div>
+
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+                        </div>
+
+                        <p class=" post-text"><span>Muneeb</span> a computer science student and aspiring developer,
+                            combines
+                            technical expertise with a passion for innovation <a
+                                href="https://www.linkedin.com/in/muhammad-muneeb-javaid-a41560246"
+                                target="_blank">#Linkedln
+                                Profile</a> <a href="https://www.facebook.com/muneeb.javed.7161/"
+                                target="_blank">#Facebook
+                                Profile</a> </p>
+
+                        <img src="images/Muneeb.jpg" alt="Loading" class="post-img ">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like-blue.png" alt="Loading...">400</div>
+                                <div><img src="images/comments.png" alt="Loading...">40</div>
+                                <div><img src="images/share.png" alt="Loading...">200</div>
+                            </div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/Muneeb.jpg" alt="Loading"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/Muneeb.jpg" alt="Loading...">
+                                <div>
+                                    <p>Abdur-Rehman</p>
+                                    <span>08 May 2020 , 8:27PM</span>
+                                </div>
+
+                            </div>
+
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+                        </div>
+
+                        <p class=" post-text"><span>Abdur-Rehman</span> a computer science student and aspiring
+                            developer,
+                            combines
+                            technical expertise with a passion for innovation <a href="#" target="_blank">#Linkedln
+                                Profile</a> <a href="#" target="_blank">#Facebook Profile</a> </p>
+
+                        <img src="images/feed-image-2.png" alt="Loading" class="post-img ">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like-blue.png" alt="Loading...">200</div>
+                                <div><img src="images/comments.png" alt="Loading...">80</div>
+                                <div><img src="images/share.png" alt="Loading...">100</div>
+                            </div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/Muneeb.jpg" alt="Loading"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/Muneeb.jpg" alt="Loading...">
+                                <div>
+                                    <p>Muneeb Javaid</p>
+                                    <span>08 May 2020 , 8:27PM</span>
+                                </div>
+
+                            </div>
+
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+                        </div>
+
+                        <p class=" post-text"><span>Tayyab</span> a computer science student and aspiring developer,
+                            combines
+                            technical expertise with a passion for innovation <a href="#" target="_blank">#Linkedln
+                                Profile</a> <a href="#" target="_blank">#Facebook Profile</a> </p>
+
+                        <img src="images/feed-image-3.png" alt="Loading" class="post-img ">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like-blue.png" alt="Loading...">400</div>
+                                <div><img src="images/comments.png" alt="Loading...">40</div>
+                                <div><img src="images/share.png" alt="Loading...">200</div>
+                            </div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/Muneeb.jpg" alt="Loading"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/Muneeb.jpg" alt="Loading...">
+                                <div>
+                                    <p>Muhammad Muneeb</p>
+                                    <span>08 May 2020 , 8:27PM</span>
+                                </div>
+
+                            </div>
+
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+                        </div>
+
+                        <p class=" post-text"><span>Wilson Andola</span> a computer science student and aspiring
+                            developer,
+                            combines
+                            technical expertise with a passion for innovation <a href="#" target="_blank">#Linkedln
+                                Profile</a> <a href="#" target="_blank">#Facebook Profile</a> </p>
+
+                        <img src="images/feed-image-4.png" alt="Loading" class="post-img ">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like-blue.png" alt="Loading...">400</div>
+                                <div><img src="images/comments.png" alt="Loading...">40</div>
+                                <div><img src="images/share.png" alt="Loading...">200</div>
+                            </div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/Muneeb.jpg" alt="Loading"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/Muneeb.jpg" alt="Loading...">
+                                <div>
+                                    <p>Muneeb Javaid</p>
+                                    <span>08 May 2020 , 8:27PM</span>
+                                </div>
+
+                            </div>
+
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+                        </div>
+
+                        <p class=" post-text"><span>Nick Henry</span> a computer science student and aspiring developer,
+                            combines
+                            technical expertise with a passion for innovation <a href="#" target="_blank">#Linkedln
+                                Profile</a> <a href="#" target="_blank">#Facebook Profile</a> </p>
+
+                        <img src="images/feed-image-5.png" alt="Loading" class="post-img ">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like-blue.png" alt="Loading...">400</div>
+                                <div><img src="images/comments.png" alt="Loading...">40</div>
+                                <div><img src="images/share.png" alt="Loading...">200</div>
+                            </div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/Muneeb.jpg" alt="Loading"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="loade-more-button"> Load More</button>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 Muneeb. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
